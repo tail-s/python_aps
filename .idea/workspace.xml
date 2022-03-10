@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d015e21c-d28a-4714-a6d7-1dddee04da19" name="Changes" comment="22.03.09">
+    <list default="true" id="d015e21c-d28a-4714-a6d7-1dddee04da19" name="Changes" comment="22.03.10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
       <recent name="C:\Users\lunar\Desktop\study\study_baekjoon\입출력과 사칙연산" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2753_윤년">
+  <component name="RunManager" selected="Python.main">
     <configuration name="10430_나머지" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="study_baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,7 +153,6 @@
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="study_baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -161,9 +160,10 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
@@ -192,7 +192,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646834630546</updated>
-      <workItem from="1646834631646" duration="4795000" />
+      <workItem from="1646834631646" duration="5126000" />
+      <workItem from="1646911361775" duration="78000" />
+      <workItem from="1646911442095" duration="38000" />
+      <workItem from="1646911481442" duration="144000" />
     </task>
     <task id="LOCAL-00001" summary="22.03.09">
       <created>1646835143982</created>
@@ -215,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646837918547</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="22.03.10">
+      <created>1646840233418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646840233418</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22.03.09" />
-    <option name="LAST_COMMIT_MESSAGE" value="22.03.09" />
+    <MESSAGE value="22.03.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.03.10" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/study_baekjoon$18108__.coverage" NAME="18108_불기_연도 Coverage Results" MODIFIED="1646836851359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/입출력과 사칙연산" />
@@ -247,5 +258,6 @@
     <SUITE FILE_PATH="coverage/study_baekjoon$10430_.coverage" NAME="10430_나머지 Coverage Results" MODIFIED="1646837204784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/입출력과 사칙연산" />
     <SUITE FILE_PATH="coverage/study_baekjoon$9498__.coverage" NAME="9498_시험_성적 Coverage Results" MODIFIED="1646839291908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if문" />
     <SUITE FILE_PATH="coverage/study_baekjoon$10171_.coverage" NAME="10171_고양이 Coverage Results" MODIFIED="1646834806907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/입출력과 사칙연산" />
+    <SUITE FILE_PATH="coverage/study_baekjoon$2753_.coverage" NAME="2753_윤년 Coverage Results" MODIFIED="1646840084424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if문" />
   </component>
 </project>
