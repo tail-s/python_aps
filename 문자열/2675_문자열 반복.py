@@ -1,12 +1,20 @@
 # t = int(input())
-# a = str()
+# result = []
 # for i in range(t):
 #     arr = [x for x in input().split()]
-#     r = arr.pop(0)
+#     r = int(arr.pop(0))
 #     p = arr[0]
 #     n = len(p)
 #     for j in range(n):
-#         a += str(p[j]) * r
-#     print(x)
+#         result.append(p[j]*r)
+#     print(''.join(result))
+#     result.clear()
 
-풀이중
+n = int(input())
+
+for _ in range(n):
+    num, text = input().split()
+    t = ''
+    for i in text:
+        t += i*int(num)
+    print(t)
