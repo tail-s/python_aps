@@ -68,3 +68,30 @@
 
 # 응 시간제한이야~ 다시해와~
 ########################################################
+
+def sosu(x):
+    if x == 1:
+        return False
+    for i in range(2, int(x ** 0.5) + 1):
+        if x % i == 0: # 제곱근이 있는 수 중 약수가 있으면 소수 아님
+            return False
+    return True # 나머지는 다 소수
+
+arr = list(range(2, 246912)) # 문제 조건으로 제한
+test = []
+
+for i in arr:
+    if sosu(i):
+        test.append(i)
+
+import sys
+
+while True:
+    n = int(sys.stdin.readline())
+    cnt = 0
+    if n == 0:
+        break
+    for i in test:
+        if n < i <= 2 * n:
+            cnt += 1
+    print(cnt)
