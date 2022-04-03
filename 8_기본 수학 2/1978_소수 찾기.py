@@ -1,7 +1,7 @@
 n = int(input())
 a = list(map(int, input().split()))
 
-def solve(n): # n 까지의 모든 소수를 구하는 함수
+def solve(n): # n 까지의 모든 소수를 구하는 5_함수
     arr = [True] * (n + 1) # 0부터 n까지
     arr[0] = arr[1] = False
     x = int(n ** 0.5)
