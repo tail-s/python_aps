@@ -1,16 +1,15 @@
-# n = int(input())
-# test = 1
-# cnt = 0
-# while n > test:
-#     n -= test
-#     test += 1
-#     cnt += 1
-#
-# if cnt % 2 == 0:
-#     x = n
-#     y = cnt + 1 - x
-# else:
-#     y = n
-#     x = cnt + 1 - y
-#
-# print(f"{x}/{y}") 풀이중
+n = int(input())
+
+line = 1
+while n > line:
+    n -= line
+    line += 1
+
+if line % 2 == 0:
+    a = n
+    b = line - n + 1
+else:
+    a = line - n + 1
+    b = n
+
+print(a, '/', b, sep='')
